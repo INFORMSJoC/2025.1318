@@ -1,0 +1,44 @@
+# CMake, compiler, and IDE output
+/build*/
+/cmake-build-*/
+/.idea/
+/.vscode/
+
+# Python caches and editable-install metadata
+/.venv/
+/venv/
+/.pytest_cache/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local scratch output and solver logs
+/work/
+/outputs/
+/cplex.log
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Local credentials and commercial solver license files
+.env
+.env.*
+!.env.example
+*.lic
+*.ilm
+gurobi.lic
+access.ilm
+
+# Manuscript files are distributed through the journal, not the code archive
+/docs/*.pdf
+
+# Generated model and experiment artifacts
+/models/*.pt
+/results/*.csv
+/results/*.txt
+!/models/.gitkeep
+!/results/.gitkeep

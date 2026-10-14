@@ -1,0 +1,9 @@
+split_method=instance_level
+ratio=70:15:15
+total_instances=1
+training_instances=1
+validation_instances=0
+test_instances=0
+training_samples=1
+validation_samples=0
+recorded_tree_nodes=3

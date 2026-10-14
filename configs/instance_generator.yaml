@@ -1,0 +1,41 @@
+seed: null
+instances_per_size: 40
+sizes:
+  - { machines: 2, items: 20 }
+  - { machines: 2, items: 40 }
+  - { machines: 2, items: 60 }
+  - { machines: 3, items: 30 }
+  - { machines: 3, items: 60 }
+  - { machines: 3, items: 90 }
+  - { machines: 4, items: 40 }
+  - { machines: 4, items: 80 }
+  - { machines: 4, items: 120 }
+  - { machines: 5, items: 50 }
+  - { machines: 5, items: 100 }
+  - { machines: 5, items: 150 }
+  - { machines: 6, items: 60 }
+  - { machines: 6, items: 120 }
+  - { machines: 6, items: 180 }
+  - { machines: 7, items: 70 }
+  - { machines: 7, items: 140 }
+  - { machines: 7, items: 210 }
+  - { machines: 8, items: 80 }
+  - { machines: 8, items: 160 }
+  - { machines: 8, items: 240 }
+  - { machines: 9, items: 90 }
+  - { machines: 9, items: 180 }
+  - { machines: 9, items: 270 }
+  - { machines: 10, items: 100 }
+  - { machines: 10, items: 200 }
+  - { machines: 10, items: 300 }
+  - { machines: 11, items: 110 }
+  - { machines: 11, items: 220 }
+  - { machines: 11, items: 330 }
+  - { machines: 12, items: 120 }
+  - { machines: 12, items: 240 }
+  - { machines: 12, items: 360 }
+weight_range: [100, 450]
+profit_range: [50, 300]
+capacity_range: [800, 1800]
+compatibility_probability: 0.65
+output_directory: data/instances
