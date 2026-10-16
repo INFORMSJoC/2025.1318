@@ -1,27 +1,28 @@
 [![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
-# SLbJNV Branch-and-Price for the General Batching Decision Problem
+# A Supervised Learning-based Branching Method in Branch-and-Price
 
 This archive is distributed in association with the
-[INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc)
-under the [MIT License](LICENSE). It contains the software used in the research
-reported in *A Supervised Learning-based Branching Method in Branch-and-Price*.
+[INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE). 
+
+The software and data in this repository are a snapshot of the software and data that were used in the research reported on in the paper [A Supervised Learning-based Branching Method in Branch-and-Price](https://doi.org/10.1287/ijoc.2025.1318)
+by Baiyang He, Ying Meng, Lixin Tang, and Jiyin Liu.
 
 ## Cite
 
 To cite the contents of this repository, please cite both the paper and this
 code repository using their respective DOIs:
 
-- Paper: <https://doi.org/10.1287/ijoc.2025.1318>
-- Code: <https://doi.org/10.1287/ijoc.2025.1318.cd>
+- Paper: https://doi.org/10.1287/ijoc.2025.1318
+- Code: https://doi.org/10.1287/ijoc.2025.1318.cd
 
 BibTeX for the code repository:
 
 ```bibtex
-@misc{HeEtAl2026SLbJNVCode,
+@misc{He2026,
   author =    {Baiyang He and Ying Meng and Lixin Tang and Jiyin Liu},
   publisher = {INFORMS Journal on Computing},
-  title =     {{SLbJNV Branch-and-Price for the General Batching Decision Problem}},
+  title =     {A Supervised Learning-based Branching Method in Branch-and-Price},
   year =      {2026},
   doi =       {10.1287/ijoc.2025.1318.cd},
   url =       {https://github.com/INFORMSJoC/2025.1318},
