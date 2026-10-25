@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slbjnv"
+version = "0.2.0"
+description = "SLbJNV learning components for GBD branch-and-price"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "PyYAML>=6.0", "numpy>=1.26"]
+
+[project.optional-dependencies]
+embed = ["pybind11>=2.11,<4"]
+
+[tool.setuptools]
+package-dir = {"" = "python"}
+
+[tool.setuptools.packages.find]
+where = ["python"]
+
+[tool.pytest.ini_options]
+pythonpath = ["python"]
+testpaths = ["tests/python"]

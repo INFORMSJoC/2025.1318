@@ -1,0 +1,22 @@
+SLBJNV_GBD_INSTANCE_V1
+instance_id "gbd_2_6_debug"
+num_items 6
+num_machines 2
+items
+0 10 5
+1 20 8
+2 25 12
+3 30 15
+4 35 20
+5 15 7
+machines
+0 80
+1 100
+compatibility
+110000
+110000
+001100
+001100
+000011
+000011
+end

@@ -1,0 +1,37 @@
+model:
+  feature_dimension: 1000
+  feature_embedding: 16
+  key_token_features: 3
+  key_embedding: 16
+  lstm_hidden: 32
+  lstm_layers: 1
+  maximum_key_steps: 20
+  score_hidden_layers: 3
+  score_hidden_units: 32
+training:
+  optimizer: adamw
+  learning_rate: 0.001
+  beta_learning_rate: 0.0001
+  batch_size: 32
+  epochs: 100
+  weight_decay: 0.0001
+  gradient_clip_norm: 1.0
+  random_samples: 31
+  random_error_limit: 0.01
+  initial_beta: 1.0
+  maximum_beta: 100.0
+  sequence_loss_weight: 1.0
+  teacher_forcing_ratio: 0.5
+  device: auto
+  scheduler: reduce_on_plateau
+  scheduler_factor: 0.5
+  scheduler_patience: 5
+  early_stopping_patience: 12
+  minimum_delta: 0.000001
+  seed: 42
+paths:
+  train: data/training/train.txt
+  validation: data/training/validation.txt
+  best_model: models/best_model.pt
+  last_model: models/last_model.pt
+  history: results/training_history.csv

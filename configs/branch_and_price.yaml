@@ -1,0 +1,20 @@
+solver:
+  backend: auto
+  preference: [cplex, highs]
+  time_limit_seconds: 36000
+column_generation:
+  reduced_cost_tolerance: 1.0e-7
+  maximum_iterations: 10000
+  columns_per_pricing_round: 1
+branch_and_bound:
+  integrality_tolerance: 1.0e-6
+  feasibility_tolerance: 1.0e-8
+  bound_tolerance: 1.0e-8
+  node_limit: 1000000
+strong_branching:
+  maximum_candidates: 20
+  column_generation_iteration_limit: 25
+  score_product_weight: 0.5
+features:
+  sequence_length: 20
+  dimension: 1000
